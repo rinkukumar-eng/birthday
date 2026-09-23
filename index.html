@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy 18th Birthday Dhakan 🎀</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background Particles -->
+    <div class="particles"></div>
+
+    <!-- Floating Decorations -->
+    <div class="floating-stickers">
+        <span>🎀</span>
+        <span>💗</span>
+        <span>🦋</span>
+        <span>✨</span>
+        <span>🌸</span>
+        <span>💖</span>
+        <span>🎈</span>
+        <span>💫</span>
+    </div>
+
+
+    <!-- MUSIC BUTTON -->
+    <button id="musicBtn" class="music-btn">
+        🎵
+    </button>
+
+
+    <!-- MAIN HERO -->
+    <section class="hero">
+
+        <div class="sparkle sparkle1">✨</div>
+        <div class="sparkle sparkle2">💫</div>
+        <div class="sparkle sparkle3">⭐</div>
+
+        <div class="hero-content">
+
+            <p class="small-text">
+                ✨ Someone very special just turned ✨
+            </p>
+
+            <h1>
+                18
+            </h1>
+
+            <h2>
+                HAPPY BIRTHDAY
+            </h2>
+
+            <div class="name">
+                DHakan 🎀
+            </div>
+
+            <p class="subtitle">
+                The world just got a little more crazy today... 💗
+            </p>
+
+            <button class="start-btn" onclick="startCelebration()">
+                🎉 LET'S CELEBRATE 🎉
+            </button>
+
+        </div>
+
+        <!-- Balloons -->
+        <div class="balloon balloon1">🎈</div>
+        <div class="balloon balloon2">🎈</div>
+        <div class="balloon balloon3">🎈</div>
+        <div class="balloon balloon4">🎈</div>
+
+    </section>
+
+
+    <!-- AGE REVEAL -->
+    <section class="age-section">
+
+        <div class="section-card">
+
+            <div class="emoji-big">
+                🥳
+            </div>
+
+            <h2>
+                WAIT... WHAT?!
+            </h2>
+
+            <p>
+                Dhakan is officially
+            </p>
+
+            <div class="age-number">
+                18
+            </div>
+
+            <p class="age-text">
+                YEARS OLD! 🎂💗
+            </p>
+
+            <div class="crazy-text">
+                ADULT MODE: UNLOCKED 🔓😂
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CAKE SECTION -->
+    <section class="cake-section">
+
+        <h2>
+            🎂 MAKE A WISH 🎂
+        </h2>
+
+        <p>
+            Close your eyes... and make your biggest wish! ✨
+        </p>
+
+        <div class="cake">
+
+            <div class="candle candle1">
+                <div class="flame"></div>
+            </div>
+
+            <div class="candle candle2">
+                <div class="flame"></div>
+            </div>
+
+            <div class="candle candle3">
+                <div class="flame"></div>
+            </div>
+
+            <div class="cake-top">
+                💗
+            </div>
+
+            <div class="cake-middle"></div>
+
+            <div class="cake-bottom"></div>
+
+        </div>
+
+        <button class="wish-btn" onclick="blowCandles()">
+            🌬️ Blow The Candles
+        </button>
+
+        <p id="wishMessage"></p>
+
+    </section>
+
+
+    <!-- GIFT SECTION -->
+    <section class="gift-section">
+
+        <h2>
+            🎁 THERE'S A GIFT FOR YOU
+        </h2>
+
+        <p>
+            But you'll have to open it yourself 👀
+        </p>
+
+        <div class="gift" onclick="openGift()">
+
+            <div class="gift-lid">
+                🎀
+            </div>
+
+            <div class="gift-box">
+                🎁
+            </div>
+
+        </div>
+
+        <p id="giftMessage" class="gift-message">
+            Click the gift! 👆
+        </p>
+
+    </section>
+
+
+    <!-- LETTER SECTION -->
+    <section class="letter-section">
+
+        <div class="letter">
+
+            <div class="letter-top">
+                💌
+            </div>
+
+            <h2>
+                A LITTLE MESSAGE
+            </h2>
+
+            <p>
+                Dear Dhakan,
+            </p>
+
+            <p>
+                Today isn't just another birthday.
+                It's the beginning of your 18th chapter. 🎀
+            </p>
+
+            <p>
+                May your life be full of crazy adventures,
+                beautiful memories, endless laughter,
+                amazing people and lots of happiness. 💗
+            </p>
+
+            <p>
+                Keep smiling, keep being crazy,
+                and never stop being YOU. 🦋✨
+            </p>
+
+            <p class="final-line">
+                Happy 18th Birthday, Dhakan! 🎂💖
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CRAZY SECTION -->
+    <section class="crazy-section">
+
+        <div class="crazy-content">
+
+            <div class="crazy-emoji">
+                🥳🎉💗🎀🦋✨
+            </div>
+
+            <h2>
+                OKAY...
+            </h2>
+
+            <h1>
+                ENOUGH SERIOUSNESS!
+            </h1>
+
+            <p>
+                IT'S TIME TO GO CRAZY!!! 🔥
+            </p>
+
+            <button onclick="crazyMode()">
+                💥 ACTIVATE CRAZY MODE 💥
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- FINAL SURPRISE -->
+    <section class="final-section">
+
+        <div class="final-content">
+
+            <div class="huge-heart">
+                💖
+            </div>
+
+            <h1>
+                HAPPY
+            </h1>
+
+            <h1>
+                18TH BIRTHDAY
+            </h1>
+
+            <h2>
+                DHAKAN 🎀
+            </h2>
+
+            <p>
+                May this year be your craziest,
+                happiest and most unforgettable one yet. ✨
+            </p>
+
+            <div class="final-emojis">
+                🎂 🎉 🎁 💗 🦋 🌸 ✨ 🎀 💫
+            </div>
+
+            <button onclick="finalExplosion()">
+                🎆 ONE LAST SURPRISE 🎆
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONFETTI CONTAINER -->
+    <div id="confetti-container"></div>
+
+
+    <!-- POPUP -->
+    <div id="popup" class="popup">
+
+        <div class="popup-content">
+
+            <span class="close" onclick="closePopup()">×</span>
+
+            <div class="popup-emoji">
+                💗
+            </div>
+
+            <h2>
+                HAPPY BIRTHDAY DHAKAN!
+            </h2>
+
+            <p>
+                18 looks crazy good already! 😂🎀
+            </p>
+
+            <button onclick="closePopup()">
+                💕 AWWW
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
